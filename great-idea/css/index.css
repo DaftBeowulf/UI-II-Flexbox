@@ -236,20 +236,40 @@ margin-top:10px;
 font: size 20px;
 background:white;
 border-radius:5px;
-border:1px solid black;
+border:1px solid rgb(70, 21, 21);
 }
 
 /*bottom-content, one div containing text in line with an image*/
 .services .bottom-content {
-
+display:flex;
+border:none;
+padding:0;
+justify-content:space-between;
 }
 
 .services .bottom-content .text {
+width:45%;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+font-size:25px;
+}
 
+.services .bottom-content .text h2 {
+	font-size: 40px;
+}
+
+.services .bottom-content .text ul {
+	list-style-type: square;
+	padding-left:25px;
+	margin: 15px 0;
 }
 
 .services .bottom-content .services-info-img {
-
+width:45%;
+margin:5px;
+padding:10px;
+height:100%;
 }
 
 /*footer with copyright info*/
