@@ -176,4 +176,83 @@ font-size:30px;
 }
 
 /*Services page here */
+/*image above header and below nav*/
+.services .services-header-img {
+	margin-top:200px;
+width:100%;
+}
 
+/*header*/
+.services header {
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+padding:50px 0;
+border-bottom: 1px solid black;
+}
+
+.services header h1 {
+font-size: 40px;
+}
+
+.services header p {
+font-size: 25px;
+}
+
+/*main-content of 6 boxes of encapsulated content*/
+.services .main-content {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+border-bottom: 3px solid black;
+margin-bottom:100px;
+padding-bottom:100px;
+}
+
+.services .main-content .content-box {
+	border: 1px solid black;
+background:lightgrey;
+width:45%;
+margin:30px 5px;
+height:350px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding:10px;
+}
+
+.services .main-content .content-box h2 {
+font-size:40px;
+}
+
+.services .main-content .content-box p {
+font-size:25px;
+}
+
+.services .main-content .content-box button {
+width:40%;
+height:15%;
+margin-top:10px;
+font: size 20px;
+background:white;
+border-radius:5px;
+border:1px solid black;
+}
+
+/*bottom-content, one div containing text in line with an image*/
+.services .bottom-content {
+
+}
+
+.services .bottom-content .text {
+
+}
+
+.services .bottom-content .services-info-img {
+
+}
+
+/*footer with copyright info*/
+.services footer {
+
+}
